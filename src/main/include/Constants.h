@@ -51,7 +51,7 @@ namespace LoadConstants
     inline constexpr int kLoadMotorPort = 4; 
 
     // Other konstants
-    inline constexpr float kSpeed = 0.6;
+    inline constexpr float kSpeed = 0.9;
 }
 
 namespace ShooterConstants
@@ -73,6 +73,6 @@ namespace DemoConstants
     // Du Speeds
     inline constexpr float kDriveSpeed = 0.75;
     inline constexpr float kIntakeSpeed = 0.7;
-    inline constexpr float kLoadSpeed = 0.3;
+    inline constexpr float kLoadSpeed = 0.75;
     inline constexpr float kShooterSpeed = 0.3;
 }
