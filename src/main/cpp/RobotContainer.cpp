@@ -51,9 +51,9 @@ void RobotContainer::ConfigureBindings()
     && m_driverController.Y()).WhileTrue(m_Load.RunLoad(-LoadConstants::kSpeed, -DemoConstants::kLoadSpeed));
   // Out
   (m_driverController.LeftBumper()
-    && m_driverController.B()).WhileTrue(m_Intake.RunIntake(-IntakeConstants::kSpeed, -DemoConstants::kIntakeSpeed));
+    && m_driverController.Y()).WhileTrue(m_Intake.RunIntake(-IntakeConstants::kSpeed, -DemoConstants::kIntakeSpeed));
   (m_driverController.LeftBumper()
-    && m_driverController.X()).WhileTrue(m_Load.RunLoad(LoadConstants::kSpeed, DemoConstants::kLoadSpeed));
+    && m_driverController.Y()).WhileTrue(m_Load.RunLoad(LoadConstants::kSpeed, DemoConstants::kLoadSpeed));
 
   // Run Shooter
   // Out
